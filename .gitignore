@@ -1,0 +1,9 @@
+#Ignore Mac-Files
+.DS_Store
+
+#Ignore PHP-Storm Folder 
+/.idea
+
+/source
+/output
+/tmp

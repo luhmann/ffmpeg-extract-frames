@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SOURCE=$1
+START=$2
+DURATION=$3
+FPS=$4
+
+./bin/createGif.sh $SOURCE $SOURCE-$START-full $START $DURATION  
+./bin/createGif.sh $SOURCE $SOURCE-$START-468 $START $DURATION 468x264 $FPS 
+./bin/createGif.sh $SOURCE $SOURCE-$START-228 $START $DURATION 228x129 $FPS
